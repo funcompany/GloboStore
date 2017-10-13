@@ -5,7 +5,7 @@
 #import <Foundation/Foundation.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>
 
-@interface GloboStore : NSObject
+@interface GStore : NSObject
 + (void)setObject:(id)object atKeyPath:(NSString *)keyPath;
 + (id)getObjectAtKeyPath:(NSString *)keyPath;
 + (RACSignal *)listenAtKeyPath:(NSString *)keyPath;
