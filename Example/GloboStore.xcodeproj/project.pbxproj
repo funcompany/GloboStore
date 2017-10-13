@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0981FB18E7DA9BC172233C22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		35302608FC5130D5615D9CB9 /* GloboStore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GloboStore.podspec; path = ../GloboStore.podspec; sourceTree = "<group>"; };
+		0981FB18E7DA9BC172233C22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		35302608FC5130D5615D9CB9 /* GloboStore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GloboStore.podspec; path = ../GloboStore.podspec; sourceTree = "<group>"; };
 		3CB5B055CFACCFCA92313340 /* Pods-GloboStore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloboStore_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GloboStore_Tests/Pods-GloboStore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -29,8 +29,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		732F6E744297CBE3AF0CF80C /* Pods_GloboStore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GloboStore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F5F6221F90719A005ECA34 /* GStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GStore.h; sourceTree = "<group>"; };
+		74F5F6231F90719A005ECA34 /* GStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GStore.m; sourceTree = "<group>"; };
 		8AE4E981AF22BA4D2C8A8824 /* Pods-GloboStore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GloboStore_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GloboStore_Tests/Pods-GloboStore_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9139AAFDD5F11B03F9E6F53D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9139AAFDD5F11B03F9E6F53D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				74F5F6211F90719A005ECA34 /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -106,6 +109,16 @@
 				0981FB18E7DA9BC172233C22 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		74F5F6211F90719A005ECA34 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				74F5F6221F90719A005ECA34 /* GStore.h */,
+				74F5F6231F90719A005ECA34 /* GStore.m */,
+			);
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 		B829127B2498D5F06CD650E2 /* Pods */ = {
