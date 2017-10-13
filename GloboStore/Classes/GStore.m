@@ -5,7 +5,7 @@
 #import "GStore.h"
 
 
-@implementation GloboStore
+@implementation GStore
 static NSMutableDictionary *store;
 static NSMutableDictionary *storeSignals;
 
