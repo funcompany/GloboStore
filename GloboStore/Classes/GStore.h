@@ -3,7 +3,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveObjC/ReactiveObjC.h>
 
 @interface GStore : NSObject
 + (void)setObject:(id)object atKeyPath:(NSString *)keyPath;
